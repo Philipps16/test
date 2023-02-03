@@ -1,4 +1,10 @@
-﻿
+﻿void PrintArray1 (string [] array)
+{
+    Console.WriteLine ($"Начальный массив: ");
+    for (int i = 0; i < array.Length; i++)
+    Console.Write ($"{array[i]} ");
+}
+
 
 
 
